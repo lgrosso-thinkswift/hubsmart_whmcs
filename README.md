@@ -1,1 +1,2 @@
 # whmcs_custom private cart
+- products.tpl file is a customized cart template for WHMCS 6.x.  Created a new child cart in /templates/orderforms/xxxxx copied from existing default cart for the purpose of making it private to certain users with a particular group id [1] using the newer hook method.  See hook file example for the authentication logic, products.tpl has boolean conditions with if/then/else logic.
